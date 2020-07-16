@@ -42,7 +42,7 @@ body{
 
 .main{
     width: 100%;
-    height: 850px;
+    height: 770px;
     color: #fff;;
     background: url("../img/bg.jpg") no-repeat center;
     display: grid;
@@ -50,39 +50,40 @@ body{
     align-items: center;
     position: relative;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .main-container{
     max-width: 800px;
     z-index: 1;
-    margin-top: 150px;
+    margin-top: 110px;
 }
 
 .main-container h1{
 
     max-width: 510;
-    font-size: 65px;
+    font-size: 61px;
 }
 
 .main-container h2{
     margin: 25px;
-    font-size: 34px;
+    font-size: 29px;
     font-weight: 400;
 }
 
-.main-container .form{
+.form{
     display: grid;
     grid-template-columns: 500px 250px;
     justify-content: center;
 }
 
-.main-container .form input{
+.form input{
     padding: 22px 13px;
     font-size: 18px;
 
 }
 
-.main-container .form button{
+.form button{
     background: #e50914;
     outline: none;
     border: none;
@@ -92,7 +93,7 @@ body{
     cursor: pointer;
 }
 
-.main-container .form button::after{
+.form button::after{
     content: '';
     display: inline-block;
     width: 10px;
@@ -107,7 +108,7 @@ body{
 
 .main-container p{
     font-weight: 400;
-    font-size: 27px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
@@ -181,3 +182,19 @@ body{
 }
 
 /* FOOTER */
+
+.footer{
+    padding: 4rem 0 2rem 0;
+    border-top: 8px solid #222;
+    background: black;
+    text-align: center;
+}
+
+.footer .form{
+    margin-top: 0;
+}
+
+.footer p{
+    margin-top: 2rem;
+    color: #757575
+}
